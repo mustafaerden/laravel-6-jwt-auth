@@ -22,7 +22,11 @@ class UserResource extends JsonResource
             'create_dates' => [
                 'created_at_human' => $this->created_at->diffForHumans(),
                 'created_at' => $this->created_at
-            ]
+            ],
+            'tagline' => $this->tagline,
+            'about' => $this->about,
+            'formatted_address' => $this->formatted_address,
+            'available_to_hire' => $this->available_to_hire
         ];
     }
 }
