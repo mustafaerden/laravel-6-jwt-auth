@@ -15,4 +15,4 @@
 <p>make e-mail settings</p>
 <p>add to .env file (CLIENT_URL=http://yourfrontendurl.com</p>
 <p>Good to Go</p>
-<p>Functinalities: jwt auth / register / login / logout / email verification / forgot password / reset password</p>
+<p>Functinalities: jwt auth / register / login / logout / email verification / forgot password / reset password / user profile updata / user change password</p>
